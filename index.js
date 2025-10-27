@@ -8,6 +8,9 @@ app.get("/", (req, res)=>{
 app.get("/data", (req, res)=>{
     res.send('more data here')
 })
+app.get("/data", (req, res)=>{
+    res.send('more data here')
+})
 
 app.listen(port, ()=>{
     console.log(`Server is running on http://localhost:${port}`);
